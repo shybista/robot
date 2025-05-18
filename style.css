@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif; /* гарнітура тексту */
+  line-height: 1.6;               /* міжрядковий інтервал */
+  background-color: #f4f4f4;      /* колір фону */
+  color: #333;                    /* колір тексту */
+  margin: 0;                      /* зовнішній відступ */
+  padding: 0;                     /* внутрішній відступ */
+}
+header {
+  background: #333;               /* колір фону */
+  color: #fff;                    /* колір тексту */
+  text-align: center;             /* вирівнювання тексту */
+  padding: 20px;                  /* внутрішній відступ */
+  font-size: 36px;                /* розмір шрифту */
+  font-weight: bold;              /* жирність шрифту */
+}
+footer {
+  background: #333;               /* колір фону */
+  color: #fff;                    /* колір тексту */
+  text-align: center;             /* вирівнювання тексту */
+  padding: 10px;                  /* внутрішній відступ */
+  position: relative;             /* позиціонування */
+  bottom: 0;                      /* притискання до низу */
+  width: 100%;                    /* ширина 100% */
+}
+nav {
+  text-align: center;             /* вирівнювання тексту */
+  background: #444;               /* колір фону */
+  padding: 10px;                  /* внутрішній відступ */
+}
+ul {
+  padding-left: 20px;             /* відступ зліва */
+}
+nav a {
+  color: #fff;                    /* колір тексту посилання */
+  text-decoration: none;          /* без підкреслення */
+  margin: 0 15px;                 /* зовнішній відступ */
+  font-size: 18px;                /* розмір шрифту */
+}
+h1 {
+  color: #222;                    /* колір тексту */
+  font-size: 22px;                /* розмір шрифту */
+  border-bottom: 2px solid #ccc;  /* нижня межа */
+  padding-bottom: 5px;            /* внутрішній відступ знизу */
+}
+
+p {
+    text-align: justify; /* Вирівнює текст по ширині, створюючи акуратні колонки. */
+    }
+section {
+  width: 80%;                     /* ширина блоку */
+  margin: 20px auto;              /* автоматичне центрування */
+  padding: 20px;                  /* внутрішній відступ */
+  background: #fff;               /* колір фону */
+  border-radius: 10px;            /* заокруглення кутів */
+}
+.info-panel {
+  width: 80%;                     /* ширина блоку */
+  max-width: 800px;               /* максимальна ширина */
+  margin: 20px auto;              /* автоматичне центрування */
+  padding: 15px;                  /* внутрішній відступ */
+  background: #e0e0e0;            /* колір фону */
+  border-left: 15px solid #666;   /* ліва межа */
+  border-radius: 8px;             /* заокруглення кутів */
+  text-align: center;             /* вирівнювання тексту */
+}
+img {
+  display: block;       /* Забезпечує коректне розташування елементів на сторінці. */
+  margin: 10px auto;    /* Центрує зображення горизонтально. */
+  border-radius: 5px;   /* Закруглює кути, роблячи зображення візуально м'якшими. */
+}
+nav a:hover {
+  text-decoration: underline;      /* підкреслення при наведенні */
+  background-color: #DEE5E7;        /* виділення посилань при наведенні */
+}
+.info-panel:hover {
+  background: #81d4fa; /* Зміна відтінку при наведенні */
+}
+img:hover {
+  transform: scale(1.05); /* Легка зміна розміру при наведенні */
+}
+nav:hover {
+  transform: scale(1.05); /* Легка зміна розміру при наведенні */
+}
